@@ -1,79 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Movie.HD</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <title>Roast-y Bistro</title>
+    <body style="background-color: #74165b;">
+       
+        <nav class="navbar" style="background-color: #13040f;">
+            <div class="container-fluid" style="background-color: #0a1330;">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="navbar-brand nav-item text-light d-flex" id="home-link">Stream Movies Like Never Before</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="btn btn-sm btn-outline-secondary text-light nav-brand mt-3 mb-0 ms-0" href="#" role="button" id="menu-link">Menu</a>
+                        <ul id="films">
+                            <li></li>
+                        </ul>
+                    </li> -->
+                </ul>
 
-</head>
-
-<body>
-    <div class="grid text-center">
-        <nav class="navbar bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand text-danger" href="#">Roast-y</a>
-                <div class="navbar-nav me-auto d-flex flex-row">
-                    <a class="nav-link active text-light margin me-2" aria-current="page" href="#">Home</a>
-                    <a class="nav-link text-light me-2" href="#" id="category-link">CATEGORIES</a>
-                    <a class="nav-link text-light me-2" href="#" id="countries-link">COUNTRIES</a>
-                    <a class="nav-link Gallery text-light me-2">Gallery</a>
-                </div>
-                <span class="navbar-brand mb-0 h1"></span>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-info ms-2.5" type="submit">Search</button>
+                <form class="d-flex mt-0" id="search-form">
+                    <input class="form-control" type="text" placeholder="Search" id="search"/>
+                    <button class="btn btn-outline-info ms-1"  id="searchBtn">SEARCH</button>
                 </form>
             </div>
         </nav>
-    </div>
-    <div class="container mt-5" id="main-container">
-        <div class="row" id="random-meal">
 
-        </div>
-        <!-- <div class="card col-12">
-                <div class="row">
-                    <div class="card-body col-6">
-                        <img class="card-image" src="./pilau.jpg" alt="" id="rand-meal-img">
-                    </div>
-                    <div class="card-body col-6">
-                        <img class="card-image" src="./appletart.jpg" alt="" id="rand-meal-img">
-                        <h5 class="card-title">Card Title</h5>
-                        <p class="card-paragraph">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Harum possimus numquam doloribus repellat, animi quia vero aspernatur asperiores officia
-                            placeat ipsa,
-                            at eveniet temporibus ullam ducimus fugit commodi eaque iste?
-                        </p>
+        <div class="container d-flex flex-row mt-5" id="main-container">
+            <div class="row d-flex flex-row">
+                <div class="col-4" id="film-menu" hidden><h3>Showing In Theaters</h3></div>
 
-                    </div>
+                <div class="col-8" id="showing-films"></div>
 
-                </div>
-            </div> -->
-        <div class="row mt-3" id="meal-categories" hidden>
-            <h3>CATEGORIES</h3>
-            <!-- <div class="card" col-4>
-                            <img class="card-img-top" src="shawrma.jpg" alt=""/>
-                            <h4 class="card-title">Shawrma</h4>
-
-                       </div>  -->
-        </div>
-        <div class="row mt-3" id="meal-countries" hidden>
-            <span class="col-2 me-1 mb-1 badge text-bg-success">Kenyan</span>
-
+                <div class="row mt-3 mb-3" id="search-result" hidden><h3>Your Search Results</h3></div>
+            </div>
         </div>
 
-
-
-    </div>
-
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-
-</body>
-
-
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
 </html>
