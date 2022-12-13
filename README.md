@@ -193,7 +193,7 @@ To access the content on the browser:
 
 # Author
 This project was contributed to by: 
-* [Nyokabi Kamau](https://github.com/NyokabiKamau/)
+* [Prince Daniel](https://github.com/prince475/phase-1-week-3-code-challenge-Flatdango)
 
 # License
 * This project is licensed under ISC
