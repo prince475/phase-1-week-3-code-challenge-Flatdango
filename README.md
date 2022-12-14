@@ -160,7 +160,7 @@ deliverables!**
 To access this project on you local computer, follow the steps below
 * Open your terminal
 * Clone this repository: 
-    - Run <code>git clone (https://github.com/NyokabiKamau/phase1-codechallenge-week3)</code>
+    - Run <code>git clone (https://github.com/prince475/phase-1-code-challenge-Flatdango-week3)</code>
 * Change directory:
     - Run <code>cd code_challenge_3</code>
 
@@ -180,7 +180,7 @@ To access this project on you local computer, follow the steps below
 
 ### Access
 To access the content on the browser:
-* click on this link (https://nyokabikamau.github.io/phase1-codechallenge-week3/#)
+* click on this link (https://prince475.github.io/phase-1-week-3-code-challenge-Flatdango/#)
 
    * or
 

@@ -223,6 +223,7 @@ const SEARCH = 'http://localhost:3000/films/'
 
         rootDiv.appendChild(filmData)
         return rootDiv
+        
     }
 
     // load film
@@ -256,6 +257,7 @@ const SEARCH = 'http://localhost:3000/films/'
                 filmMenu.append(...filmElems)
             })
     }
+    
 
     // search data
     function searchFilm (film){
@@ -278,6 +280,7 @@ const SEARCH = 'http://localhost:3000/films/'
                 searchRow.replaceChildren(...searchResults)
             })
     }
+    
 
 // wait for DOM to load to do stuff
 document.addEventListener('DOMContentLoaded', (event) => {
@@ -314,25 +317,25 @@ const configurationObject = {
         body:JSON.stringify(addingFilmData),
     }
    
-    function myFunction() {
-        // Declare variables
-        let input, filter, filmData, a, i, txtValue;
-        input = document.getElementById('http://localhost:3000/films');
-        filter = input.value.toUpperCase();
-        filmData = document.getElementById("");
-        
+    // function myFunction() {
+    //     // Declare variables
+    //     var input, filter, ul, li, a, i, txtValue;
+    //     input = document.getElementById('search');
+    //     filter = input.value.toUpperCase();
+    //     ul = document.getElementById("myUL");
+    //     li = ul.getElementsByTagName('li');
       
-        // Loop through all list items, and hide those who don't match the search query
-        for (i = 0; i < filmData.length; i++) {
-          a = filmData[i].getElementsByTagName("a")[0];
-          txtValue = a.textContent || a.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            filmData[i].style.display = "";
-          } else {
-            filmData[i].style.display = "none";
-          }
-        }
-      }
+    //     // Loop through all list items, and hide those who don't match the search query
+    //     for (i = 0; i < li.length; i++) {
+    //       a = li[i].getElementsByTagName("a")[0];
+    //       txtValue = a.textContent || a.innerText;
+    //       if (txtValue.toUpperCase().indexOf(filter) > -1) {
+    //         li[i].style.display = "";
+    //       } else {
+    //         li[i].style.display = "none";
+    //       }
+    //     }
+    //   }
 
 // fetch(FILMAPI, configurationObject)
 //     .then(response => response.json())
