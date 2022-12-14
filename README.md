@@ -13,13 +13,16 @@
 5. [License](#license)
 
 # Description
-For this assessment, you'll be working on Flatdango.
+This assessment was focused on working with Flatdango.
 
 Flatiron Movie Theater is open for business! You will be building out an
 application, Flatdango, that allows a user to purchase movie tickets from the
 theater.
 
-The instructions below will walk you through the process of ideation and planning your app: deciding on your user interface, planning how the information will be laid out on the page, etc. You should work through all the planning steps before you start doing any coding.
+The instructions to build the code are as stated below: 
+A walk through the process of ideation and planning your app development;
+deciding on your user interface, planning how the information will be laid out on the page, 
+etc. A work through all the planning steps is vital before you start doing any coding.
 
 ## Project Guidelines
 Your project should conform to the following set of guidelines:
@@ -157,7 +160,7 @@ deliverables!**
    ```
 
 # Project Setup
-To access this project on you local computer, follow the steps below
+To access this project on you local computer, follow the steps outlined below
 * Open your terminal
 * Clone this repository: 
     - Run <code>git clone (https://github.com/prince475/phase-1-code-challenge-Flatdango-week3)</code>
